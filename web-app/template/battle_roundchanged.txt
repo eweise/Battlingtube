@@ -1,0 +1,5 @@
+Battle $battleName has finished round $lastRound and is starting a new round with $numberOfPlayers players.
+
+To see the results, please go to www.battlingtube.com/bt/battle/details/$battleId
+
+Thank you for playing www.BattlingTube.com

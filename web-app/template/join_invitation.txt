@@ -1,0 +1,6 @@
+You have been invited by user $username, to join the battle $battleName.  To join this battle, please
+go to www.battlingtube.com/bt/battle/details/$battleId.  If you are not currently a BattlingTube member, you will
+need to sign up before joining the battle.
+
+Thank you for playing www.BattlingTube.com
+

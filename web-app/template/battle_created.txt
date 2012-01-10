@@ -1,0 +1,5 @@
+
+You have created the battle $battleName at www.BattlingTube.com.  In order to start the battle, you need to add at least
+three videos.  You can view all your battles at www.battlingtube.com/bt/activity/created.
+
+Thank you for playing at BattlingTube.com

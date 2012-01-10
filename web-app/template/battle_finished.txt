@@ -1,0 +1,3 @@
+Battle $battleName has finished.  To see the winners please go to www.battlingtube.com/bt/battle/details/$battleId
+
+Thank you for playing www.BattlingTube.com

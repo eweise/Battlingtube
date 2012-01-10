@@ -1,0 +1,616 @@
+html, body, div, span, applet, object, iframe,
+    h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+    a, abbr, acronym, address, big, cite, code,
+    del, dfn, em, font, img, ins, kbd, q, s, samp,
+    small, strike, strong, sub, sup, tt, var,
+    dl, dt, dd, ol, ul, li,
+    fieldset, form, label, legend,
+    table, caption, tbody, tfoot, thead, tr, th, td {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-weight: inherit;
+    font-style: inherit;
+    font-size: 100%;
+    font-family: inherit;
+    vertical-align: baseline;
+}
+
+/* remember to define focus styles! */
+:focus {
+    outline-color: -moz-use-text-color;
+    outline-style: none;
+    outline-width: 0;
+}
+
+body {
+    background-color: #000000;
+    color: #B1B1B1;
+    font-family: helvetica, arial, sans-serif;
+    font-size: 90%;
+    line-height: 90%;
+    text-align: left;
+}
+
+a, a:link, a:visited, a:active {
+    color: #B1B1B1;
+}
+
+#logo a {
+    text-decoration: none;
+    margin-top:-10px;
+}
+
+
+a:hover {
+    color: orange;
+}
+
+img {
+    border-width: 0;
+}
+
+p {
+    line-height: 1.3em;
+    margin: 0 0 10px;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    font-size: 1em;
+    line-height: 1.3em;
+    list-style-position: outside;
+    list-style-type: none;
+    margin: 3px 0;
+}
+
+caption {
+    font-weight: bold;
+    padding: 15px 0 5px;
+    text-align: left;
+}
+
+th, td {
+    line-height: 1.3em;
+    padding: 3px 6px;
+    text-align: left;
+    vertical-align: top;
+}
+
+div {
+    display: block;
+    margin: 0;
+    padding: 0;
+    text-align: left;
+}
+
+form {
+    margin: 0;
+}
+
+select {
+    font-size: 1em;
+    vertical-align: middle;
+    width: auto;
+}
+
+input {
+    color: #FFFFFF;
+    font-size: 1em;
+    vertical-align: middle;
+}
+
+h1 {
+    color: #FFFFFF;
+    font-family: helvetica, arial, sans-serif;
+    font-size: 2.4em;
+    font-weight: normal;
+    line-height: 1em;
+    margin: 10px 0 0;
+}
+
+h2 {
+    color: #FFFFFF;
+    font-family: helvetica, arial, sans-serif;
+    font-size: 2.4em;
+    font-weight: normal;
+    line-height: 1em;
+    margin: 10px 0 0;
+}
+
+h3 {
+    color: #FFFFFF;
+    font-family: helvetica, arial, sans-serif;
+    font-size: 1.3em;
+    font-weight: normal;
+    line-height: 1.2em;
+    margin: 0 0 5px;
+}
+
+h4 {
+    font-size: 1.25em;
+    font-weight: normal;
+    line-height: 1.2em;
+    margin: 0 0 5px;
+    text-align: center;
+}
+
+div .dialog {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    width: 530px;
+    padding: 10px;
+    border: 1px solid #525252;
+    background-color: #525252;
+    color: white;
+    float: left;
+}
+
+/* layout  */
+#wrapper {
+    width: 800px;
+    margin: auto;
+}
+
+#col-left {
+    width: 200px;
+    float: left;
+}
+
+#col-right {
+    width: 0%;
+    float: left;
+}
+
+#header {
+    height: 30px;
+}
+
+#header_inner, #col-left_inner, #col-right_inner {
+    overflow: hidden;
+    padding-bottom: 1em;
+}
+
+/* transfer these to the login so that when it's removed, there's nothing or OVERWRITE! */
+
+#col-right_inner {
+    padding-top: 1em;
+}
+
+/* footer  */
+div #footer {
+    clear: both;
+    color: #ccc;
+    font-size: 76%;
+    padding: 1em 0 4em 0;
+}
+
+div.battledetails {
+    width:550px;
+    margin-top:10px;
+}
+
+ul.details li {
+        width:500px;
+}
+
+ul.details li span {
+    float: left;
+    width: 200px;
+}
+
+#footer li {
+    display: inline;
+    border-left: 1px solid #ccc;
+    padding: 0 12px;
+}
+
+#footer li:first-child {
+    border: 0;
+}
+
+#footer a {
+    text-decoration: none;
+}
+
+.actionEdit {
+    color: yellow;
+}
+
+.actionCreate {
+    color: lightgreen;
+}
+
+.actionDelete {
+    color: red;
+}
+
+#footer p {
+    margin: 1em 12px;
+}
+
+#logo-tagline {
+    position: relative;
+    float: left;
+    top: 10px;
+}
+
+#content {
+    position: relative;
+    width: 800px;
+    height: 600px;
+    top: 10px;
+}
+
+#menu {
+    position: relative;
+    font-size: 1.3em;
+    font-weight: normal;
+}
+
+#menu a {
+    text-decoration: none
+}
+
+#menu ul.sub-menu {
+    margin-top:20px;
+    margin-left: 20px;
+    margin-bottom:20px;
+
+}
+
+#menu li.menu-item-startsub {
+    border-bottom: solid thin;
+    width: 175px;
+    color: gray;
+}
+
+#menu li.menu-item-endsub {
+    border-top: solid thin;
+    width: 175px;
+    color: gray;
+}
+
+#menu li.selected {
+    font-weight: bold;
+    font-style:italic;
+}
+
+div#search {
+    position: relative;
+    top: 70px;
+    right: 50px;
+    float: right;
+}
+
+div#search {
+   position:relative;
+    margin-top: -100px;
+    margin-left: 600px;
+    font-color:black;
+}
+
+
+#search form label {
+    font-size: 0.85em;
+    text-transform: uppercase;
+    color: white;
+}
+
+div.intro {
+    font-size: 1.25em;
+    color: lightgray;
+    line-height: 100%;
+    background: black;
+    width: 530px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+
+}
+
+div.intro h3 {
+    /*color: white;*/
+}
+
+div.intro ol {
+    list-style-position: inside;
+    list-style-image: url(/bt/images/bullet.png);
+    margin-left: 20px;
+}
+
+div.intro strong {
+    color: white;
+}
+
+div.errors {
+    font-weight: bold;
+    color: yellow;
+}
+
+li.info {
+    color: white;
+}
+
+span.message {
+  color:lightgreen;  
+}
+
+h3.message {
+    color:lightgreen;
+}
+
+form input {
+    background-color: white;
+    border: 1px solid #484848;
+    color: black;
+}
+
+div.buttons input {
+    background-color: lightgray;
+}
+
+#search form input#query {
+    background-color: #999999;
+    border: 1px solid #484848;
+    color: #FFFFFF;
+    font-family: helvetica, arial, sans-serif;
+    padding: 1px 0 0 3px;
+}
+
+div#main-content {
+    position: relative;
+    margin-left: 200px;
+}
+
+div.battlebox {
+    position: relative;
+
+    width: 400px;
+    height: 200px;
+}
+
+div.battlebox-left {
+    position: relative;
+    width: 300px;
+    height: 120px;
+}
+
+.battlebox-left li {
+    left: 100px;
+}
+
+.battlebox-left li.name {
+    position: absolute;
+    margin-top: 0px;
+    margin-left: 25px;
+}
+
+.battlebox-left li.participants {
+    position: absolute;
+    margin-top: 20px;
+    margin-left: 25px;
+}
+
+.battlebox-left li.round {
+    position: absolute;
+    margin-top: 40px;
+    margin-left: 25px;
+}
+
+.battlebox-left li.leader {
+    position: absolute;
+    top: 60px;
+}
+
+.battlebox li.name {
+    position: relative;
+    left: 150px;
+}
+
+.battlebox li.participants {
+    float: right;
+    position: relative;
+    top: 20px;
+}
+
+.battlebox li.round {
+    position: absolute;
+    top: 140px;
+}
+
+.battlebox li.leader {
+    position: absolute;
+    top: 160px;
+}
+
+.battlebox li.vote {
+    position: absolute;
+    top: 180px;
+}
+
+.battlebox li.join {
+    position: absolute;
+    top: 160px;
+}
+
+.orange {
+#fcb367;
+}
+
+h2.tableheader {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.highlight {
+    color: lightgreen;
+}
+
+.highlightLarge {
+    font-size: large;
+    color: lightgreen;
+}
+
+table {
+    width: 550px;
+}
+
+table tr th {
+    color: white;
+}
+
+div.results {
+    margin-top:40px;
+}
+
+table.results {
+
+    position: relative;
+    width: 550px;
+    border: solid thin lightgray;
+}
+
+table.results tr th {
+    color: black;
+    background: darkgray;
+
+}
+
+table.results td {
+    color: black;
+    background: white;
+}
+
+table.results td a {
+    color: black;
+}
+
+form fieldset {
+    margin-bottom: 10px;
+}
+
+form legend {
+    padding: 0 2px;
+    font-weight: bold;
+}
+
+form label {
+    display: inline-block;
+    line-height: 1.8;
+    vertical-align: top;
+}
+
+form fieldset ol {
+    margin: 0;
+    padding: 0;
+}
+
+form fieldset li {
+    list-style: none;
+    padding: 5px;
+    margin: 0;
+    width:auto;
+}
+
+form fieldset fieldset legend {
+    padding: 0 0 5px;
+    font-weight: normal;
+}
+
+form fieldset label {
+    width:30%;
+}
+
+form em {
+    font-weight: bold;
+    font-style: normal;
+    color: #f00;
+}
+
+form label {
+    width: 120px; /* Width of labels */
+}
+
+form fieldset fieldset label {
+    margin-left: 123px; /* Width plus 3 (html space) */
+}
+
+.image-wrapper img {
+    height: 100px;
+    width: 100px;
+    border: solid darkgray;
+}
+
+div.leaders {
+    position: relative;
+    margin-top:10px;
+    margin-left:10px;
+}
+
+div.leaders ul li {
+    float: left;
+    margin-left:0px;
+}
+
+div.leaders ul.battle {
+    width:180px;
+}
+
+div.leaders li.name {
+    width:150px;
+}
+
+
+
+
+div.battledetails h3.title {
+    border-bottom: solid thin gray;
+}
+
+ul#battleEntryFields {
+    margin-top: 20px;
+}
+
+.saved {
+    color: red;
+}
+
+
+#logo-tagline {
+    position:relative;
+}
+
+span#welcomeuser {
+    position: absolute;
+    margin-top:70px;
+    margin-left:550px;
+}
+
+ul#battle li label {
+    width: 200px;
+}
+
+
+
+
+div#featuredbattle {
+    height:400px;
+    width:550px;
+    position:relative;
+    padding-top:20px;
+    padding-left:20px;
+    border: 1px  dotted darkgray;
+}
+
+div.pager {
+     margin-top:20px;
+}
+
+div#youtubeContainer {
+}
+

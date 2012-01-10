@@ -1,0 +1,65 @@
+.results th#date {
+    width: 60px;
+}
+
+.results th#video {
+    width: 60px;
+}
+
+.results th#artist {
+    width: 60px;
+}
+
+.results th#score {
+    width: 30px;
+}
+
+div.youtubeLarge {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    height: 300px;
+    align: center;
+}
+
+ul.votebox {
+    margin-top: 0px;
+    border: solid thin lightgray;
+    padding: 10px;
+}
+
+#comments {
+}
+
+div.vote {
+    position: relative;
+}
+
+#voteButton img {
+    margin-left:10px;
+    
+}
+div .voteresults {
+    width: 530px;
+    margin-top: 30px;
+}
+
+#rateMe li {
+    list-style: none;
+}
+
+#rateMe li a:hover,
+    #rateMe .on {
+    background: url(/bt/images/star_on.png) no-repeat;
+}
+
+#rateMe a {
+    float: left;
+    background: url(/bt/images/star_off.png) no-repeat;
+    width: 25px;
+    height: 25px;
+}
+
+
+
+
+        
